@@ -1,0 +1,13 @@
+.layout{
+    width: 100%;
+    height: fit-content;
+    padding: 3rem 5rem;
+    color:white;
+    background-color: rgba(12, 11, 8, 1);
+}
+
+@media (max-width:600px){
+    .layout{
+        padding: 2rem 1rem;
+    }
+}

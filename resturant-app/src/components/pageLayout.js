@@ -1,16 +1,12 @@
 import React from 'react';
-import styled from "styled-components";
+import styles from "./pageLayout.module.css";
 
-const pageLayout = ({children}) => {
-    const Layout= styled.div`
-    height:100%;
-    padding:2rem 3rem;
-    `
+const PageLayout = ({children}) => {
     return (
-        <Layout>
+        <div className={styles.layout}>
             {children}
-        </Layout>
+        </div>
     );
 };
 
-export default pageLayout;
+export default PageLayout;
