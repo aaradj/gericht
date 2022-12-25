@@ -3,7 +3,7 @@ import Navbar from "../../Pages/Navbar";
 import Header from "../../Pages/Header"
 import AboutUs from "../../Pages/AboutUs";
 import styles from "./main.module.css";
-const Main = (props) => {
+const Main = () => {
 
   return (
     <div className={styles.container}>
