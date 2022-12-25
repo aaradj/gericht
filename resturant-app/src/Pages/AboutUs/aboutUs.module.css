@@ -1,0 +1,98 @@
+.container{
+    height: fit-content;
+    padding: 3rem 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutUs{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.paragraph{
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+.aboutUs .paragraph{
+    text-align: end;
+}
+.ourHistory .paragraph{
+    text-align: start;
+}
+.title{
+    font-size: 2rem;
+    color: rgba(220, 202, 135, 1);
+}
+.aboutUs div{
+    padding-bottom:2.5rem ;
+}
+
+.image{
+    text-align: center;
+    width: 33%;
+}
+.image .knife{
+    width: 20%;
+}
+
+.ourHistory {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.ourHistory div{
+    padding-bottom:2.5rem ;
+}
+
+.button p{
+    background-color: rgba(220, 202, 135, 1);
+    color: rgba(12, 11, 8, 1);
+    padding: 1rem 1.8rem;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media (max-width:1200px){
+    .container {
+        flex-direction: column;
+    }
+    .aboutUs{
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+    }
+    .ourHistory{
+        width: 100%;
+    }
+}
+
+@media (max-width:600px){
+    .container{
+        padding: 2rem 1rem;
+    }
+    .title{
+        font-size: 1.4rem;
+    }
+    .paragraph{
+        font-size: 1rem;
+    }
+    .aboutUs div{
+        padding-bottom:2rem ;
+    }
+    .ourHistory div{
+        padding-bottom:2rem ;
+    }
+    .button p{
+        padding: .7rem 1.5rem;
+    }
+}

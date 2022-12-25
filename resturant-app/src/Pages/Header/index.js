@@ -7,7 +7,7 @@ const Header = () => {
   const welcome = require("../../assets/welcome.png");
   return (
         <PaeLayout>
-      <div className={styles.container}>
+      <div className={styles.container} id="home">
                 
       <div className={styles.main}>
         <div className={styles.text}>

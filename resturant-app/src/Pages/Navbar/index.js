@@ -12,19 +12,19 @@ const Navbar = () => {
       <div className={styles.lists}>
         <nav>
           <ul className={open ? styles.open : null}>
-            <li>
+            <li onClick={()=> setOpen(false)}>
               <a href="#home">Home</a>
             </li>
-            <li>
+            <li onClick={()=> setOpen(false)}>
               <a href="#about">About</a>
             </li>
             <li>
               <a href="#menu">Menu</a>
             </li>
-            <li>
+            <li onClick={()=> setOpen(false)}>
               <a href="#award">Awards</a>
             </li>
-            <li>
+            <li onClick={()=> setOpen(false)}>
               <a href="#contact">Contact</a>
             </li>
           </ul>
