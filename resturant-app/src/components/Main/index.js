@@ -5,6 +5,7 @@ import AboutUs from "../../Pages/AboutUs";
 import styles from "./main.module.css";
 import SpecialMenu from "../../Pages/SpecialMenu";
 import Chef from "../../Pages/Chef";
+import Intro from "../../Pages/Intro";
 const Main = () => {
 
   return (
@@ -14,6 +15,7 @@ const Main = () => {
         <AboutUs />
         <SpecialMenu />
         <Chef />
+        <Intro />
     </div>
   );
 };
