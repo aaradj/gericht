@@ -1,0 +1,105 @@
+.container{
+    padding: 3rem 5rem;
+    color: white;
+    display: flex;
+}
+.image{
+    width: 50%;
+}
+.image img{
+    width: 75%;
+}
+.main{
+    width: 50%;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    margin-bottom: 5rem;
+}
+.textTitle{
+    padding-bottom:1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.header h2{
+    font-size: 4rem;
+    color: rgba(220, 202, 135, 1);
+}
+.text p{
+    display: flex;
+    align-items: start;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: rgba(170, 170, 170, 1);
+}
+.text span{
+    font-size: 6rem;
+    color: white;
+}
+.chef{
+    margin: 3rem 1.5rem;
+}
+.chef h3{
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgba(220, 202, 135, 1);
+    margin-bottom: 1rem;
+}
+.chef h4{
+    font-size: 1.3rem;
+    color: rgba(170, 170, 170, 1);
+    font-weight: 400;
+}
+.chef img{
+    width: 300px;
+    margin-top: 4rem;
+}
+
+@media (max-width:1200px){
+    .container{
+        flex-direction: column;
+    }
+    .image{
+        width: 100%;
+        text-align: center;
+    }
+    .image img{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+}
+
+@media (max-width:600px){
+    .container{
+        padding: 2rem 1rem;
+    }
+    .textTitle{
+        font-size: 1.2rem;
+    }
+    .header{
+        margin-bottom: 2rem;
+    }
+    .header h2{
+        font-size: 2rem;
+    }
+    .text p{
+        font-size: 1rem;
+    }
+    .text span{
+        font-size: 3rem;
+    }
+    .chef h3{
+        font-size: 1.7rem;
+    }
+    .chef h4{
+        font-size: 1rem;
+    }
+    .chef img{
+        width: 200px;
+        margin-top: 2rem;
+    }
+}
