@@ -42,33 +42,30 @@
 .image img{
     width: 75%;
 }
-
 @media (max-width:1200px){
     .container{
         flex-direction: column;
         justify-content: unset;
-    }
+}
     .main{
         width: 100%;
-    }
+}
     .main .title{
         font-size: 2rem;
-    }
+}
     .image{
         width: 100%;
         text-align: center;
-    }
+}
     .image img{
         width: 100%;
-    }
-
 }
-
+}
 @media (max-width:600px){
     .main .title{
         font-size: 1.6rem;
-    }
+}
     .main .button{
         padding: .8rem 1.8rem;
-    }
+}
 }
