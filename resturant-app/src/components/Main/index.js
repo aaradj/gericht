@@ -6,6 +6,7 @@ import styles from "./main.module.css";
 import SpecialMenu from "../../Pages/SpecialMenu";
 import Chef from "../../Pages/Chef";
 import Intro from "../../Pages/Intro";
+import Laurels from "../../Pages/Laurels";
 const Main = () => {
 
   return (
@@ -16,6 +17,7 @@ const Main = () => {
         <SpecialMenu />
         <Chef />
         <Intro />
+        <Laurels />
     </div>
   );
 };
