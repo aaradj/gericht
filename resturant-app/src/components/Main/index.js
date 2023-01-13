@@ -10,6 +10,7 @@ import Laurels from "../../Pages/Laurels";
 import Galery from "../../Pages/Galery";
 import FindUs from "../../Pages/FindUs";
 import Email from "../../Pages/Email";
+import Footer from "../../Pages/Footer";
 const Main = () => {
 
   return (
@@ -24,6 +25,7 @@ const Main = () => {
         <Galery />
         <FindUs />
         <Email />
+        <Footer />
     </div>
   );
 };
