@@ -1,0 +1,95 @@
+.container {
+  width: 100%;
+  height: fit-content;
+  padding: 3rem 5rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.text div {
+  margin-bottom: 3rem;
+}
+.text .contact p {
+  font-size: 2rem;
+}
+
+.title h3 {
+  font-size: 4rem;
+  color: rgba(220, 202, 135, 1);
+}
+.text div p {
+  color: rgba(170, 170, 170, 1);
+  font-size: 1.1rem;
+}
+.image {
+  width: 50%;
+  text-align: end;
+}
+.image img {
+  width: 75%;
+}
+.opening h3 {
+  font-size: 2rem;
+  color: rgba(220, 202, 135, 1);
+  margin: 1rem 0;
+}
+.text .opening p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+  background-color: rgba(220, 202, 135, 1);
+  text-align: center;
+  color: rgba(12, 11, 8, 1);
+  padding: 1rem 1.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+@media (max-width:1200px){
+    .container{
+        flex-direction: column;
+        justify-content: unset;
+        padding: 2rem 1rem;
+}
+    .text{
+        width: 100%;
+}
+    .image{
+        width: 100%;
+        text-align: center;
+}
+    .image img { 
+        width: 100%;
+}
+}
+@media (max-width:600px){
+  .text div {
+        margin-bottom: 1.5rem;
+      }
+    .title h3{
+        font-size: 2rem;
+}
+.text .contact p{
+  font-size: 1rem;
+}
+.opening h3{
+    font-size: 1.5rem;
+}
+.text .opening p {
+  font-size: .8rem;
+}
+  .button {
+        padding: .5rem 1.2rem;
+}
+}

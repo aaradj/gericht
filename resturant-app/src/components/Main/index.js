@@ -8,6 +8,7 @@ import Chef from "../../Pages/Chef";
 import Intro from "../../Pages/Intro";
 import Laurels from "../../Pages/Laurels";
 import Galery from "../../Pages/Galery";
+import FindUs from "../../Pages/FindUs";
 const Main = () => {
 
   return (
@@ -20,6 +21,7 @@ const Main = () => {
         <Intro />
         <Laurels />
         <Galery />
+        <FindUs />
     </div>
   );
 };
