@@ -9,6 +9,7 @@ import Intro from "../../Pages/Intro";
 import Laurels from "../../Pages/Laurels";
 import Galery from "../../Pages/Galery";
 import FindUs from "../../Pages/FindUs";
+import Email from "../../Pages/Email";
 const Main = () => {
 
   return (
@@ -22,6 +23,7 @@ const Main = () => {
         <Laurels />
         <Galery />
         <FindUs />
+        <Email />
     </div>
   );
 };
